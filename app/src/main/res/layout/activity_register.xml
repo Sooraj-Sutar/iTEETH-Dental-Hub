@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Student Register"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/header"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Name"
+            android:textSize="25dp"
+            android:layout_below="@id/header"
+            android:id="@+id/NameLBL"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Nametxt"
+            android:layout_below="@id/NameLBL"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="25dp"
+            android:id="@+id/EmailLBL"
+            android:layout_below="@id/Nametxt"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Emailtxt"
+            android:layout_below="@id/EmailLBL"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/PswdLBL"
+            android:layout_below="@id/Emailtxt"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Pswdtxt"
+            android:layout_below="@id/PswdLBL"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="25dp"
+            android:id="@+id/PhLBL"
+            android:layout_below="@id/Pswdtxt"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Phtxt"
+            android:layout_below="@id/PhLBL"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Of Birth"
+            android:textSize="25dp"
+            android:id="@+id/dobLBL"
+            android:layout_below="@id/Phtxt"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dobtxt"
+            android:layout_below="@id/dobLBL"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="25dp"
+            android:id="@+id/AdLBL"
+            android:layout_below="@id/dobtxt"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Adtxt"
+            android:layout_below="@id/AdLBL"
+            android:inputType="number"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/btnSave"
+            android:layout_below="@id/Adtxt"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

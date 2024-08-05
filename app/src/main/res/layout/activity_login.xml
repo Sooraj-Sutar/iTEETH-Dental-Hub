@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Student Login"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/header"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Email"
+            android:textSize="25dp"
+            android:id="@+id/EmailLBL"
+            android:layout_below="@id/header"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Emailtxt"
+            android:layout_below="@id/EmailLBL"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/PswdLBL"
+            android:layout_below="@id/Emailtxt"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Pswdtxt"
+            android:layout_below="@id/PswdLBL"
+            android:inputType="textPassword"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/btnSave"
+            android:layout_below="@id/Pswdtxt"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
